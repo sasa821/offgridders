@@ -3,3 +3,6 @@
 /docs/_build/doctrees/
 /docs/_build/html/
 /.idea/
+/venv/
+/src/__pycache__/
+settings.json
