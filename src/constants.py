@@ -5,7 +5,7 @@ PERFORM_MULTICRITERIA_ANALYSIS = "perform_multicriteria_analysis"
 OUTPUT_FILE = "output_file"
 
 # Default input file
-INPUT_TEMPLATE_EXCEL_XLSX = "inputs/input_template_excel.xlsx"
+INPUT_TEMPLATE_EXCEL_XLSX = "inputs/input_data.xlsx"
 
 # A1_GENERAL_FUNCTIONS
 CAPACITY_PV_KWP = "capacity_pv_kWp"
@@ -68,7 +68,7 @@ DC_SYSTEM = "DC_system"
 SEPARATOR = "seperator"
 GRID_AVAILABILITY_CSV = "grid_availability.csv"
 
-INPUT_TEMPLATE_EXCEL_XLSX = "inputs/input_template_excel.xlsx"
+INPUT_TEMPLATE_EXCEL_XLSX = "inputs/input_data.xlsx"
 
 OEMOF_FOLDER = "/oemof"
 INPUTS_FOLDER = "/inputs"
