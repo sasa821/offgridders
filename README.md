@@ -23,7 +23,9 @@ If you have questions regarding the tool's execution or it's code pieces, please
 
 # Setup
 * Download and integrate cbc solver.
-* Open Anaconda prompt, create environment with `python==3.6`
+* creating a virtual environment:
+    * In conda: Open Anaconda prompt, create environment with `python==3.6`
+    * Directly: install `virtualenv` using `pip install virtualenv`, create the virtual environment using `virtualenv -p [path to python.exe] [path to virtual environment]`, and finally activate the virtual environment using `.\venv\Scripts\activate`
 * Run: `pip install -r requirements.txt`
 * Execute test data: `python Offgridders.py`
 * Run your own simulations by defining the path to your input excel file: `python Offgridders.py ./inputs/test_input_template.xlsx`
