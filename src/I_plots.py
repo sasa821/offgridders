@@ -14,6 +14,7 @@ df_cs2 = df[df["case"]=="diesel_mg"]
 df_cs3 = df[df["case"]=="pv-storage-mg"]
 x = df_cs1["fuel_price"]
 plt.plot(x, df_cs1["lcoe"], x, df_cs2["lcoe"], x, df_cs3["lcoe"])
+plt.legend(["pv-diesel-storage", "diesel", "pv-storage"])
 plt.xlabel("Ful Price")
 plt.ylabel("LCOE [$/kWh]")
 plt.show()
